@@ -14,7 +14,7 @@ type Person struct {
 
 // Method with a struct as a receiver
 func (p Person) Greet() string {
-	return fmt.Sprintf("Hello, %s %s from %s!", p.FirstName, p.LastName, p.City)
+	return fmt.Sprintf("Hii, %s %s from %s!", p.FirstName, p.LastName, p.City)
 }
 
 // Method to update a field using a pointer receiver
